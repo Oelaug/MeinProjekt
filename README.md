@@ -7,7 +7,7 @@ Dieses Repository dokumentiert die Schritte zur Einrichtung eines GitHub-Reposit
 
 ### Schritte
 1. GitHub aufgerufen und neues Repository erstellt: `MeinProjekt`.
-2. SSH-URL des Repositories: `git@github.com:Oelaug/MeinProjekt.git`.
+2. SSH-URL des Repositories: `git@github.com:DeinBenutzername/MeinProjekt.git`.
 
 ---
 
@@ -15,7 +15,7 @@ Dieses Repository dokumentiert die Schritte zur Einrichtung eines GitHub-Reposit
 
 ### Schritte
 1. Überprüfung auf vorhandenen Schlüssel: `ls ~/.ssh/`
-2. Neuer SSH-Schlüssel erstellt: `ssh-keygen -t rsa -b 4096 -C "ertan.unal@web.de"`.
+2. Neuer SSH-Schlüssel erstellt: `ssh-keygen -t rsa -b 4096 -C "deine_email@beispiel.com"`.
 3. Öffentlichen Schlüssel zu GitHub hinzugefügt.
 
 ---
@@ -23,11 +23,11 @@ Dieses Repository dokumentiert die Schritte zur Einrichtung eines GitHub-Reposit
 ## 3. Lokales Repository eingerichtet
 
 ### Schritte
-1. Repository geklont: `git clone git@github.com:Oelaug/MeinProjekt.git`.
+1. Repository geklont: `git clone git@github.com:DeinBenutzername/MeinProjekt.git`.
 2. Git konfiguriert:
     ```bash
-    git config user.name "Oelaug"
-    git config user.email "ertan.unal@web.de"
+    git config user.name "Dein Name"
+    git config user.email "deine_email@beispiel.com"
     ```
 3. Datei `main.py` hinzugefügt und initialer Commit erstellt.
 
